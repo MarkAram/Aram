@@ -1,0 +1,33 @@
+# Normal Commands
+ls # Lists files and directories in the current directory.
+cd /home # Changes the current directory to /home.
+pwd # Prints the current working directory.
+mkdir testdir # Creates a new directory named testdir.
+touch testfile # Creates a new empty file named testfile.
+echo "Hello World" # Displays the text "Hello World" in the terminal.
+cat /etc/os-release # Displays the content of the /etc/os-release file, which contains OS information.
+df -h # Displays disk space usage in a human-readable format.
+free -m # Shows memory usage in megabytes.
+ps aux # Displays detailed information about all running processes.
+top # Displays real-time system resource usage.
+kill 1234 # Terminates the process with the PID (Process ID) 1234.
+chmod 644 testfile # Changes the permissions of testfile to rw-r--r--.
+chown user:user testfile # Changes the owner and group of testfile to user.
+mv testfile /home/user/ # Moves testfile to the /home/user/ directory.
+
+# Sudo Commands
+sudo apt update # Updates the package lists for upgrades and new package installations.
+sudo apt upgrade # Upgrades all installed packages to their latest versions.
+sudo apt install nano # Installs the nano text editor.
+sudo systemctl status apache2 # Checks the status of the Apache2 service.
+sudo systemctl start apache2 # Starts the Apache2 service.
+sudo systemctl stop apache2 # Stops the Apache2 service.
+sudo systemctl restart apache2 # Restarts the Apache2 service.
+sudo systemctl enable apache2 # Enables the Apache2 service to start on boot.
+sudo systemctl disable apache2 # Disables the Apache2 service from starting on boot.
+sudo reboot # Reboots the system.
+sudo shutdown now # Shuts down the system immediately.
+sudo useradd newuser # Adds a new user named newuser.
+sudo passwd newuser # Sets or changes the password for newuser.
+sudo visudo # Edits the sudoers file to manage sudo permissions.
+sudo ufw enable # Enables the UFW (Uncomplicated Firewall).
